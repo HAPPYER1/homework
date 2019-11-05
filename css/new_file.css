@@ -1,0 +1,15 @@
+	td{
+				text-align: center;
+			}
+			tbody>tr>td:last-child{
+				color: red;
+			}
+			tbody>tr>td:nth-last-child(2){
+				color: red;
+			}
+			tbody>tr:nth-child(2)>td:first-child{
+				color: red;
+			}
+			tbody>tr:first-child>td:nth-child(n+2){
+				color: red;
+			}
